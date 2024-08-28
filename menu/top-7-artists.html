@@ -4,14 +4,16 @@
     <head>
         <title>Top 7 artists</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/youtube-iframe.css">
         <script src="../js/bootstrap.js"></script>
     </head>
 
     <body>
         <div class="container-fluid">
-            <nav class="navbar navbar-expand {-sm | -md | -lg | -xl | -xxl} navbar-light bg-light" style="padding-top: 10px;">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light" style="padding-top: 10px;">
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="../index.html">Главная</a></li>
@@ -36,10 +38,13 @@
                 <hr>
                 <div class="row align-items-center gy-3">
                     <div class="col-12 col-lg-5">
-                        <img width="300" height="300" alt="Starset avatar" src="../images/starset.jpg">
+                        <picture>
+                            <source srcset="../images/mobile/starset-mobile.jpg" media="(max-width: 540px)">
+                            <img src="../images/desktop/starset.jpg" alt="Starset avatar">
+                        </picture>
                     </div>
-                    <div class="col-12 col-lg-7">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/p-N_y1bZtRw?si=JtX3OOejh983RNrp&rel=0" 
+                    <div class="col-12 col-lg-7 iframe-container">
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/p-N_y1bZtRw?si=JtX3OOejh983RNrp&rel=0" 
                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                         </iframe>
@@ -61,10 +66,13 @@
                 <hr>
                 <div class="row align-items-center gy-3">
                     <div class="col-12 col-lg-5">
-                        <img width="300" height="300" alt="Saint Chaos avatar" src="../images/saint-chaos.jpg">
+                        <picture>
+                            <source srcset="../images/mobile/saint-chaos-mobile.jpg" media="(max-width: 540px)">
+                            <img src="../images/desktop/saint-chaos.jpg" alt="Saint Chaos avatar">
+                        </picture>
                     </div>
                     <div class="col-12 col-lg-7">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nIYQ8JTQeiY?si=5xHFLvshUzHxkH5f&rel=0" 
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/nIYQ8JTQeiY?si=5xHFLvshUzHxkH5f&rel=0" 
                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                         </iframe>
@@ -88,10 +96,13 @@
                 <hr>
                 <div class="row align-items-center gy-3">
                     <div class="col-12 col-lg-5">
-                        <img width="300" height="300" alt="Zayde Wolf avatar" src="../images/zayde-wolf.jpg">
+                        <picture>
+                            <source srcset="../images/mobile/zayde-wolf-mobile.jpg" media="(max-width: 540px)">
+                            <img src="../images/desktop/zayde-wolf.jpg" alt="Zayde Wolf avatar">
+                        </picture>
                     </div>
                     <div class="col-12 col-lg-7">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/q9vBbueiN9s?si=Ws8Yl4ppYcA_7Nf-&rel=0" 
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/q9vBbueiN9s?si=Ws8Yl4ppYcA_7Nf-&rel=0" 
                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                     </iframe>
@@ -115,10 +126,13 @@
                 <hr>
                 <div class="row align-items-center gy-3">
                     <div class="col-12 col-lg-5">
-                        <img width="300" height="300" alt="Sam Tinnesz avatar" src="../images/sam-tinnesz.jpg">
+                        <picture>
+                            <source srcset="../images/mobile/sam-tinnesz-mobile.jpg" media="(max-width: 540px)">
+                            <img src="../images/desktop/sam-tinnesz.jpg" alt="Sam Tinnesz avatar">
+                        </picture>
                     </div>
                     <div class="col-12 col-lg-7">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/yzVQkO92wNw?si=XfTDkcIzAWoXTyIq&rel=0" 
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/yzVQkO92wNw?si=XfTDkcIzAWoXTyIq&rel=0" 
                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                         </iframe>
@@ -139,10 +153,13 @@
                 <hr>
                 <div class="row align-items-center gy-3">
                     <div class="col-12 col-lg-5">
-                        <img width="300" height="300" alt="The Score avatar" src="../images/the-score.jpg">
+                        <picture>
+                            <source srcset="../images/mobile/the-score-mobile.jpg" media="(max-width: 540px)">
+                            <img src="../images/desktop/the-score.jpg" alt="The Score avatar">
+                        </picture>
                     </div>
                     <div class="col-12 col-lg-7">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-Oleu6OEJYY?si=Wk_qPa-kgl9f1Vb-&rel=0" 
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/-Oleu6OEJYY?si=Wk_qPa-kgl9f1Vb-&rel=0" 
                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                         </iframe>
@@ -162,10 +179,13 @@
                 <hr>
                 <div class="row align-items-center gy-3">
                     <div class="col-12 col-lg-5">
-                        <img width="300" height="300" alt="Imagine Dragons avatar" src="../images/imagine-dragons.jpg">
+                        <picture>
+                            <source srcset="../images/mobile/imagine-dragons-mobile.jpg" media="(max-width: 540px)">
+                            <img src="../images/desktop/imagine-dragons.jpg" alt="Imagine Dragons avatar">
+                        </picture>
                     </div>
                     <div class="col-12 col-lg-7">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ktvTqknDobU?si=cGjTEFbejOYPyd4b" 
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ktvTqknDobU?si=cGjTEFbejOYPyd4b" 
                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                         </iframe>
@@ -184,10 +204,13 @@
                 <hr>
                 <div class="row align-items-center gy-3">
                     <div class="col-12 col-lg-5">
-                        <img width="300" height="300" alt="Unknown Brain avatar" src="../images/unknown-brain.jpg">
+                        <picture>
+                            <source srcset="../images/mobile/unknown-brain-mobile.jpg" media="(max-width: 540px)">
+                            <img src="../images/desktop/unknown-brain.jpg" alt="Unknown Brain avatar">
+                        </picture>
                     </div>
                     <div class="col-12 col-lg-7">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bLZHcnuqscU?si=ARkt4COo1HG2hOZa" 
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/bLZHcnuqscU?si=ARkt4COo1HG2hOZa" 
                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                         </iframe>
